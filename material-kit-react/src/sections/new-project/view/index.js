@@ -1,0 +1,1 @@
+export { default as NewProjectView } from './new-project-view';

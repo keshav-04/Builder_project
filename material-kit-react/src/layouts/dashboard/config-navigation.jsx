@@ -1,3 +1,5 @@
+import { GoProject } from "react-icons/go";
+
 import SvgColor from 'src/components/svg-color';
 
 // ----------------------------------------------------------------------
@@ -11,6 +13,11 @@ const navConfig = [
     title: 'dashboard',
     path: '/',
     icon: icon('ic_analytics'),
+  },
+  {
+    title: 'Projects',
+    path: '/projects',
+    icon: <GoProject size={24} sx={{ width: 1, height: 1 }}/>,
   },
   {
     title: 'user',
